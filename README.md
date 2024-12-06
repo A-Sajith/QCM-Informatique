@@ -24,4 +24,4 @@ L'objectif de ce projet est de créer une interface interactive et dynamique pou
 
 1. Clonez le dépôt GitHub sur votre machine locale :
    ```bash
-   git clone https://github.com/username/qcm-informatique.git
+   https://github.com/A-Sajith/QCM-Informatique.git
