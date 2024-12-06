@@ -16,7 +16,7 @@ L'objectif de ce projet est de créer une interface interactive et dynamique pou
 
 ## Technologies utilisées
 
-- **HTML** : Structure de la page, création des éléments de base (titres, boutons, etc.).
+- **HTML** : Structure de la page, création des éléments de base.
 - **CSS** : Stylisation de la page pour la rendre attractive et facile à utiliser.
 - **JavaScript** : Gestion de la logique du QCM, affichage des questions, vérification des réponses, et gestion de la navigation entre les questions.
 
