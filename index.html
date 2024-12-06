@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM Informatique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QCM Informatique !</h1>
+
+    <button id="start-button" onclick="commencer()">Commencer</button>
+
+    <div id="qcm" style="display: none;">
+
+        <div class="question">
+            <h2>Qu'est-ce qu'un IDE (Integrated Development Environment) ?</h2>
+            <button class="answer" onclick="verifierReponse(this, false)">Un logiciel permettant de concevoir des interfaces utilisateurs</button>
+            <button class="answer" onclick="verifierReponse(this, false)">Un outil pour gérer les bases de données</button>
+            <button class="answer" onclick="verifierReponse(this, true)">Un environnement de développement qui inclut des outils pour coder, compiler et déboguer des programmes</button>
+            <button class="answer" onclick="verifierReponse(this, false)">Un langage de programmation</button>
+        </div>
+
+        <div class="question">
+            <h2>Quel est le langage de programmation le plus utilisé actuellement ?</h2>
+            <button class="answer" onclick="verifierReponse(this, false)"> Java</button>
+            <button class="answer" onclick="verifierReponse(this, true)">Python</button>
+            <button class="answer" onclick="verifierReponse(this, false)">C++</button>
+            <button class="answer" onclick="verifierReponse(this, false)">SQL</button>
+        </div>
+
+        <div class="question">
+            <h2>Quelle propriété CSS permet de changer la couleur de fond d'un élément ?</h2>
+            <button class="answer" onclick="verifierReponse(this, true)">background-color</button>
+            <button class="answer" onclick="verifierReponse(this, false)">color</button>
+            <button class="answer" onclick="verifierReponse(this, false)">border-color</button>
+            <button class="answer" onclick="verifierReponse(this, false)">font-color</button>
+        </div>
+
+        <div class="question">
+            <h2>À quoi sert GitHub ?</h2>
+            <button class="answer" onclick="verifierReponse(this, false)">À compiler du code informatique</button>
+            <button class="answer" onclick="verifierReponse(this, false)">À installer des bibliothèques logicielles</button>
+            <button class="answer" onclick="verifierReponse(this, false)">À créer des bases de données</button>
+            <button class="answer" onclick="verifierReponse(this, true)">À héberger des projets de développement logiciel et à permettre la collaboration entre développeurs</button>
+        </div>
+
+        <div class="question">
+            <h2>Que signifie l'acronyme HTML ?</h2>
+            <button class="answer" onclick="verifierReponse(this, false)">Hyper Transfer Markup Language</button>
+            <button class="answer" onclick="verifierReponse(this, false)">High Text Markup Language</button>
+            <button class="answer" onclick="verifierReponse(this, true)">HyperText Markup Language</button>
+            <button class="answer" onclick="verifierReponse(this, false)">Home Text Markup Language</button>
+        </div>
+    </div>
+
+    <button id="next-button" onclick="suivant()" style="display: none;">Suivant</button>
+    <script src="script.js"></script>
+</body>
+</html>
